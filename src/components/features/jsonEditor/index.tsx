@@ -8,8 +8,13 @@ setupMonacoEnvironment()
 export default function JsonEditor() {
   return (
     <div>
-      1232123
-      <Editor height="400px" defaultLanguage="json" defaultValue="" path="/monaco/vs" />
+      <Editor
+        height="400px"
+        defaultLanguage="json"
+        defaultValue=""
+        path="/monaco/vs"
+        theme="vs-dark"
+      />
     </div>
   )
 }
