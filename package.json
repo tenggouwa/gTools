@@ -2,7 +2,7 @@
   "name": "gtools",
   "displayName": "Gtools",
   "version": "0.0.1",
-  "description": "ls -al",
+  "description": "一款持续更新的开发常用工具插件",
   "author": "tenggouwa",
   "scripts": {
     "dev": "plasmo dev",
@@ -12,6 +12,10 @@
   "dependencies": {
     "@arco-design/web-react": "^2.66.2",
     "@monaco-editor/react": "^4.7.0",
+    "copy-to-clipboard": "^3.3.3",
+    "js-beautify": "^1.15.4",
+    "jsesc": "^3.1.0",
+    "jsonrepair": "^3.13.0",
     "monaco-editor": "^0.52.2",
     "plasmo": "0.90.5",
     "react": "18.2.0",

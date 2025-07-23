@@ -1,0 +1,12 @@
+.arco-popover-content {
+  padding: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+  .arco-menu-inner {
+    padding: 0 !important;
+  }
+}
+.arco-popover-arrow.arco-trigger-arrow {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}

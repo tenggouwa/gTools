@@ -3,10 +3,10 @@ const MENU_LIST = [
     label: "常用",
     children: [
       {
-        label: "哈希(hash)",
+        label: "JSON工具",
       },
       {
-        label: "JSON工具",
+        label: "哈希(hash)",
       }
     ],
   },
@@ -30,4 +30,27 @@ const MENU_LIST = [
   },
 ]
 
-export { MENU_LIST }
+  const INDENT_SIZE_LIST = [
+    {
+      label: "无缩进",
+      value: 0,
+    },
+    {
+      label: "缩进空格 2",
+      value: 2,
+    },
+    {
+      label: "缩进空格 4",
+      value: 4,
+    },
+    {
+      label: "缩进空格 6",
+      value: 6,
+    },
+    {
+      label: "缩进空格 8",
+      value: 8,
+    }
+]
+
+export { MENU_LIST, INDENT_SIZE_LIST }

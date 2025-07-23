@@ -6,7 +6,7 @@ import { TabContext } from "../../../router"
 const TabPane = Tabs.TabPane
 const RadioGroup = Radio.Group
 
-export default function Menu({ children }: { children: React.ReactNode }) {
+export default function Menu() {
   const { activeTab, setActiveTab, activeRadio, setActiveRadio } = useContext(TabContext)
   const currentTab = MENU_LIST.find(item => item.label === activeTab)
 
@@ -37,7 +37,6 @@ export default function Menu({ children }: { children: React.ReactNode }) {
           ))}
         </RadioGroup>
       )}
-      {children}
     </>
   )
 }
