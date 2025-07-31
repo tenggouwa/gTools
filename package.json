@@ -1,7 +1,7 @@
 {
   "name": "gtools",
   "displayName": "Gtools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "一款持续更新的开发常用工具插件",
   "author": "tenggouwa",
   "scripts": {
@@ -11,13 +11,18 @@
   },
   "dependencies": {
     "@arco-design/web-react": "^2.66.2",
+    "@bwip-js/browser": "^4.7.0",
     "@monaco-editor/react": "^4.7.0",
+    "bwip-js": "^4.7.0",
     "copy-to-clipboard": "^3.3.3",
+    "dayjs": "^1.11.13",
     "js-beautify": "^1.15.4",
     "jsesc": "^3.1.0",
     "jsonrepair": "^3.13.0",
     "monaco-editor": "^0.52.2",
+    "pinyin": "^4.0.0",
     "plasmo": "0.90.5",
+    "qr-code-styling": "^1.9.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.89.2"

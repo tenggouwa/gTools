@@ -1,0 +1,44 @@
+.ErCodeContainer {
+  padding: 6px;
+  display: flex;
+  gap: 6px;
+  .ErCodeInput {
+    flex: 1;
+    border: 1px solid var(--color-text-3);
+    border-radius: 6px;
+    padding: 6px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+    .ErCodeInputTextArea {
+      flex: 1;
+      height: 100% !important;
+      max-height: none !important;
+    }
+    .ErCodeInputOptions {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      .ErCodeInputOptionsLabel {
+        color: var(--color-text-2);
+      }
+
+    }
+  
+  }
+  .ErCodeImage {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid var(--color-text-3);
+    border-radius: 6px;
+    gap: 6px;
+    .ErCodeImageInner {
+      background: #fff;
+    }
+  }
+}

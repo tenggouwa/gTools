@@ -105,7 +105,7 @@ export default function JsonEditor() {
   }
 
   return (
-    <div>
+    <div style={{ marginTop: '6px' }}>
       <Editor
         height="400px"
         defaultLanguage="json"

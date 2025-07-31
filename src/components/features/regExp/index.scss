@@ -1,0 +1,97 @@
+.regex-tool {
+  margin: 6px;
+  border: 1px solid var(--color-text-3);
+  border-radius: 6px;
+  padding: 6px;
+
+  &__header {
+    margin-bottom: 16px;
+  }
+
+  &__regex-section,
+  &__replace-section {
+    margin-bottom: 12px;
+  }
+
+  &__input-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  &__regex-input {
+    flex: 1;
+  }
+
+  &__replace-input {
+    flex: 1;
+  }
+
+  &__common-select {
+    min-width: 120px;
+  }
+
+  &__reference-btn {
+    min-width: 80px;
+  }
+
+  &__delete-btn {
+    min-width: 80px;
+  }
+
+  &__clear-checkbox {
+    margin-right: 8px;
+  }
+
+  &__content {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  &__text-area {
+    flex: 1;
+  }
+
+  &__label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--color-text-1);
+  }
+
+  &__textarea {
+    width: 100%;
+    min-height: 200px;
+  }
+
+  &__footer {
+    border-top: 1px solid var(--color-text-3);
+    padding-top: 12px;
+  }
+
+  &__flags {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+}
+
+// 响应式设计
+@media (max-width: 768px) {
+  .regex-tool {
+    &__content {
+      flex-direction: column;
+    }
+
+    &__input-group {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    &__flags {
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+} 

@@ -28,10 +28,10 @@ export default function Menu() {
         <RadioGroup
           value={activeRadio}
           onChange={setActiveRadio}
-          style={{ marginTop: 6 }}
+          style={{ margin: '6px 6px 0 6px' }}
         >
           {currentTab.children.map(child => (
-            <Radio key={child.label} value={child.label}>
+            <Radio style={{ marginRight: 4 }} key={child.label} value={child.label}>
               {child.label}
             </Radio>
           ))}

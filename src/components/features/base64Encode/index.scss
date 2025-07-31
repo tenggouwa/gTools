@@ -1,0 +1,39 @@
+.Base64EncodeContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.Base64EncodeTabs {
+  margin-top: 6px;
+  .arco-tabs-header-scroll {
+    justify-self: center;
+    .arco-tabs-header-title {
+      padding: 0 0 3px;
+    }
+  }
+}
+.Base64EncodeContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  .Base64EncodeInput {
+    flex: 2;
+    height: 100% !important;
+    max-height: none !important;
+  }
+  .Base64EncodeOutput {
+    flex: 3;
+    position: relative;
+    .Base64EncodeCopy {
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      bottom: 0;
+    }
+    .Base64EncodeOutputTextArea {
+      height: 100% !important;
+      max-height: none !important;
+    }
+  }
+}

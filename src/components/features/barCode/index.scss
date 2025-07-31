@@ -1,0 +1,89 @@
+.barcode-tool {
+  margin: 6px;
+  border: 1px solid var(--color-text-3);
+  border-radius: 6px;
+  padding: 6px;
+
+  &__display {
+    background: var(--color-bg-2);
+    border: 1px solid var(--color-text-3);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 16px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image-container {
+    text-align: center;
+  }
+
+  &__image {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid var(--color-text-3);
+    border-radius: 4px;
+  }
+
+  &__canvas {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid var(--color-text-3);
+    border-radius: 4px;
+    background: white;
+  }
+
+  &__download-btn {
+    margin-top: 12px;
+  }
+
+  &__placeholder {
+    color: var(--color-text-3);
+    font-size: 14px;
+  }
+
+  &__controls {
+    background: var(--color-bg-2);
+    border: 1px solid var(--color-text-3);
+    border-radius: 4px;
+    padding: 16px;
+  }
+
+  &__control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    label {
+      font-size: 14px;
+      color: var(--color-text-1);
+      font-weight: 500;
+    }
+
+    .arco-input,
+    .arco-select {
+      width: 100%;
+    }
+
+    input[type="color"] {
+      width: 100%;
+      height: 32px;
+      border: 1px solid var(--color-text-3);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+
+  &__style-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+}

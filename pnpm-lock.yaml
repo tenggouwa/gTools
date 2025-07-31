@@ -11,12 +11,21 @@ importers:
       '@arco-design/web-react':
         specifier: ^2.66.2
         version: 2.66.2(@types/react@18.2.48)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@bwip-js/browser':
+        specifier: ^4.7.0
+        version: 4.7.0
       '@monaco-editor/react':
         specifier: ^4.7.0
         version: 4.7.0(monaco-editor@0.52.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      bwip-js:
+        specifier: ^4.7.0
+        version: 4.7.0
       copy-to-clipboard:
         specifier: ^3.3.3
         version: 3.3.3
+      dayjs:
+        specifier: ^1.11.13
+        version: 1.11.13
       js-beautify:
         specifier: ^1.15.4
         version: 1.15.4
@@ -29,9 +38,15 @@ importers:
       monaco-editor:
         specifier: ^0.52.2
         version: 0.52.2
+      pinyin:
+        specifier: ^4.0.0
+        version: 4.0.0
       plasmo:
         specifier: 0.90.5
         version: 0.90.5(@swc/core@1.13.1(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@types/node@20.11.5)(lodash@4.17.21)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      qr-code-styling:
+        specifier: ^1.9.2
+        version: 1.9.2
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -149,6 +164,9 @@ packages:
   '@babel/types@7.28.1':
     resolution: {integrity: sha512-x0LvFTekgSX+83TI28Y9wYPUfzrnl2aT5+5QLnO6v7mSJYtEEevuDRN0F0uSHRk1G1IWZC43o00Y0xDDrpBGPQ==}
     engines: {node: '>=6.9.0'}
+
+  '@bwip-js/browser@4.7.0':
+    resolution: {integrity: sha512-gwPl8kaTRnxgr3DdSRqlCNTfOjWAZexh3ouazBin5iJagY4XCmYD8y5RBsLOVkoQ1ahWvTKdLlfmVwOz6N20qQ==}
 
   '@emnapi/runtime@1.4.5':
     resolution: {integrity: sha512-++LApOtY0pEEz1zrd9vy1/zXVaVJJ/EbAF3u0fXIzPJEDtnITsBGbbK0EkM72amhl/R5b+5xx0Y/QhcVOpuulg==}
@@ -1739,6 +1757,10 @@ packages:
     peerDependencies:
       esbuild: '>=0.17'
 
+  bwip-js@4.7.0:
+    resolution: {integrity: sha512-b7oQcgbWUl8rpcZayQ32SQrBCNteiZFuLkimKKBRlPwIHCeUN2VNeUE3HCMYShe04Evxd+ucS9uUAOsvNKjQbA==}
+    hasBin: true
+
   cac@6.7.14:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
@@ -1825,6 +1847,10 @@ packages:
   color@4.2.3:
     resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==}
     engines: {node: '>=12.5.0'}
+
+  commander@1.1.1:
+    resolution: {integrity: sha512-71Rod2AhcH3JhkBikVpNd0pA+fWsmAaVoti6OR38T76chA7vE3pSerS0Jor4wDw+tOueD2zLVvFOw5H0Rcj7rA==}
+    engines: {node: '>= 0.6.x'}
 
   commander@10.0.1:
     resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
@@ -2335,6 +2361,9 @@ packages:
     resolution: {integrity: sha512-5YRzlAQ7tuzV1nAJu3LvDlrKtBFIALHN2+a+I1MGJCt3ldRDBF/bZuvIPzae8Epot6KBXd0awRZZcuoeAsZ/mw==}
     hasBin: true
 
+  keypress@0.1.0:
+    resolution: {integrity: sha512-x0yf9PL/nx9Nw9oLL8ZVErFAk85/lslwEP7Vz7s5SI1ODXZIgit3C5qyWjw4DxOuO/3Hb4866SQh28a1V1d+WA==}
+
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
@@ -2738,6 +2767,22 @@ packages:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
+  pinyin@4.0.0:
+    resolution: {integrity: sha512-vHpV5K+vpp6XUUpZNGRDuHoN+1xcmieM3EWlH4QjSX2kkpG/gVOwpqwV9EOJ9x9c9UERFKeLml5XVSukE/PLgQ==}
+    engines: {install-node: ^18.0.0}
+    hasBin: true
+    peerDependencies:
+      '@node-rs/jieba': ^1.6.0
+      nodejieba: ^3.4.4
+      segmentit: ^2.0.3
+    peerDependenciesMeta:
+      '@node-rs/jieba':
+        optional: true
+      nodejieba:
+        optional: true
+      segmentit:
+        optional: true
+
   pirates@4.0.7:
     resolution: {integrity: sha512-TfySrs/5nm8fQJDcBDuUng3VOUKsd7S+zqvbOTiGXHfxX4wK31ard+hoNuvkicM/2YFzlpDgABOevKSsB4G/FA==}
     engines: {node: '>= 6'}
@@ -2802,6 +2847,13 @@ packages:
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
+
+  qr-code-styling@1.9.2:
+    resolution: {integrity: sha512-RgJaZJ1/RrXJ6N0j7a+pdw3zMBmzZU4VN2dtAZf8ZggCfRB5stEQ3IoDNGaNhYY3nnZKYlYSLl5YkfWN5dPutg==}
+    engines: {node: '>=18.18.0'}
+
+  qrcode-generator@1.5.2:
+    resolution: {integrity: sha512-pItrW0Z9HnDBnFmgiNrY1uxRdri32Uh9EjNYLPVC2zZ3ZRIIEqBoDgm4DkvDwNNDHTK7FNkmr8zAa77BYc9xNw==}
 
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
@@ -3374,6 +3426,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
+
+  '@bwip-js/browser@4.7.0': {}
 
   '@emnapi/runtime@1.4.5':
     dependencies:
@@ -5191,6 +5245,8 @@ snapshots:
       esbuild: 0.18.20
       load-tsconfig: 0.2.5
 
+  bwip-js@4.7.0: {}
+
   cac@6.7.14: {}
 
   cacheable-lookup@7.0.0: {}
@@ -5288,6 +5344,10 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
       color-string: 1.9.1
+
+  commander@1.1.1:
+    dependencies:
+      keypress: 0.1.0
 
   commander@10.0.1: {}
 
@@ -5784,6 +5844,8 @@ snapshots:
 
   jsonrepair@3.13.0: {}
 
+  keypress@0.1.0: {}
+
   keyv@4.5.4:
     dependencies:
       json-buffer: 3.0.1
@@ -6131,6 +6193,10 @@ snapshots:
   pify@4.0.1:
     optional: true
 
+  pinyin@4.0.0:
+    dependencies:
+      commander: 1.1.1
+
   pirates@4.0.7: {}
 
   plasmo@0.90.5(@swc/core@1.13.1(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@types/node@20.11.5)(lodash@4.17.21)(postcss@8.5.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
@@ -6273,6 +6339,12 @@ snapshots:
     optional: true
 
   punycode@2.3.1: {}
+
+  qr-code-styling@1.9.2:
+    dependencies:
+      qrcode-generator: 1.5.2
+
+  qrcode-generator@1.5.2: {}
 
   queue-microtask@1.2.3: {}
 

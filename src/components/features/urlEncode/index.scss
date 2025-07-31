@@ -1,0 +1,39 @@
+.UrlEncodeContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.UrlEncodeTabs {
+  margin-top: 6px;
+  .arco-tabs-header-scroll {
+    justify-self: center;
+    .arco-tabs-header-title {
+      padding: 0 0 3px;
+    }
+  }
+}
+.UrlEncodeContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  .UrlEncodeInput {
+    flex: 2;
+    height: 100% !important;
+    max-height: none !important;
+  }
+  .UrlEncodeOutput {
+    flex: 3;
+    position: relative;
+    .UrlEncodeCopy {
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      bottom: 0;
+    }
+    .UrlEncodeOutputTextArea {
+      height: 100% !important;
+      max-height: none !important;
+    }
+  }
+}
