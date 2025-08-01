@@ -1,7 +1,7 @@
 {
   "name": "gtools",
   "displayName": "Gtools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "一款持续更新的开发常用工具插件",
   "author": "tenggouwa",
   "scripts": {
