@@ -1,0 +1,94 @@
+.HashContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.HashContent {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.HashLeft {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.HashInputHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.HashInputTitle {
+  font-size: 13px;
+  color: var(--color-text-2);
+}
+
+.HashCalcBtn {
+  padding: 0 8px;
+  min-width: auto;
+}
+
+.HashSelect {
+  width: 90px;
+  .arco-select-view {
+    height: 24px;
+  }
+}
+
+.HashInputArea {
+  flex: 1;
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 200px;
+  resize: none;
+}
+
+.HashOptions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  padding: 4px 0;
+}
+
+.HashSaltInput {
+  margin-top: 4px;
+}
+
+.HashRight {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  overflow-y: auto;
+}
+
+.HashResultItem {
+  position: relative;
+  flex: 1;
+  min-height: 60px;
+}
+
+.HashResultArea {
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 60px;
+  resize: none;
+}
+
+.HashCopyBtn {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  z-index: 1;
+}

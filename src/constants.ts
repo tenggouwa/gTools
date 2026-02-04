@@ -36,18 +36,59 @@ const MENU_LIST = [
   },
   {
     label: "加解密",
+    children: [
+      { label: "哈希(hash)" },
+      { label: "HMAC" },
+      { label: "AES" },
+      { label: "DES" },
+      { label: "Triple DES" },
+      { label: "RC4" },
+      { label: "Rabbit" },
+      { label: "SM2" },
+      { label: "SM4" },
+      { label: "RSA" },
+      { label: "签名/验签" },
+      { label: "Base64" },
+      { label: "Bcrypt" },
+    ],
   },
   {
     label: "校验",
   },
   {
     label: "编解码",
+    children: [
+      { label: "Base64" },
+      { label: "URL编码" },
+      { label: "Unicode" },
+      { label: "JWT解码" },
+      { label: "Hex/String" },
+      { label: "Html编码" },
+      { label: "GZIP" },
+      { label: "ASN.1解码" },
+      { label: "域名编码" },
+    ],
   },
   {
     label: "转换",
+    children: [
+      {
+        label: "单位转换",
+      },
+    ],
   },
   {
     label: "生成",
+    children: [
+      { label: "二维码" },
+      { label: "条形码" },
+      { label: "随机字符生成" },
+      { label: "UUID生成" },
+      { label: "原码/反码/补码" },
+      { label: "IP网络计算器" },
+      { label: "SQL参数填充" },
+      { label: "Http请求代码" },
+    ],
   },
   {
     label: "其他",

@@ -1,0 +1,168 @@
+.CryptoContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.CryptoPanel {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.CryptoPanelVertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.CryptoLeft {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.CryptoInputHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 13px;
+  color: var(--color-text-2);
+}
+
+.CryptoInputArea {
+  flex: 1;
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 200px;
+  resize: none;
+}
+
+.CryptoOptions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  padding: 4px 0;
+}
+
+.CryptoKeyInput {
+  margin-top: 4px;
+}
+
+.CryptoRight {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  overflow-y: auto;
+}
+
+.CryptoResultItem {
+  position: relative;
+  flex: 1;
+  min-height: 60px;
+}
+
+.CryptoResultArea {
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 60px;
+  resize: none;
+}
+
+.CryptoCopyBtn {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  z-index: 1;
+}
+
+// 垂直布局样式
+.CryptoConfigRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4px 0;
+}
+
+.CryptoConfigInput {
+  flex: 1;
+  min-width: 120px;
+  max-width: 200px;
+}
+
+.CryptoConfigInputFull {
+  flex: 1;
+  min-width: 200px;
+}
+
+.CryptoConfigSelect {
+  width: 100px;
+  .arco-select-view {
+    height: 28px;
+  }
+}
+
+.CryptoIORow {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.CryptoIOItem {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.CryptoIOArea {
+  flex: 1;
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 150px;
+  resize: none;
+}
+
+.CryptoIOAreaSmall {
+  flex: 1;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 60px;
+  resize: none;
+}
+
+.CryptoKeyArea {
+  flex: 1;
+  min-height: 60px;
+  max-height: 80px;
+  resize: none;
+}
+
+.CryptoKeyAreaFull {
+  flex: 1;
+  width: 100%;
+  min-height: 60px;
+  max-height: 80px;
+  resize: none;
+}
+
+.CryptoBtnRow {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding: 4px 0;
+}

@@ -15,17 +15,21 @@
     "@monaco-editor/react": "^4.7.0",
     "bwip-js": "^4.7.0",
     "copy-to-clipboard": "^3.3.3",
+    "crypto-js": "^4.2.0",
     "dayjs": "^1.11.13",
     "js-beautify": "^1.15.4",
     "jsesc": "^3.1.0",
     "jsonrepair": "^3.13.0",
     "monaco-editor": "^0.52.2",
+    "pako": "^2.1.0",
     "pinyin": "^4.0.0",
     "plasmo": "0.90.5",
+    "punycode.js": "^2.3.1",
     "qr-code-styling": "^1.9.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.89.2"
+    "sass": "^1.89.2",
+    "sm-crypto": "^0.4.0"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",

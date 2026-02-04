@@ -1,0 +1,271 @@
+.GenerateContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+// 随机字符/UUID生成面板
+.GeneratePanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+}
+
+.GenerateOutput {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.GenerateArea {
+  flex: 1;
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 200px;
+  resize: none;
+}
+
+.GenerateOutputHeader {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.GenerateOutputFooter {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px 0;
+}
+
+.GenerateConfig {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px;
+  background: var(--color-fill-2);
+  border-radius: 4px;
+}
+
+.GenerateSettingBtn {
+  min-width: auto;
+  padding: 0 4px;
+}
+
+// 原码/反码/补码面板
+.BinaryPanel {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+  height: 100%;
+}
+
+.BinaryLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.BinaryInputHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: var(--color-text-2);
+}
+
+.BinaryInputArea {
+  flex: 1;
+  height: 100% !important;
+  max-height: none !important;
+  resize: none;
+}
+
+.BinaryRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.BinaryResultItem {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.BinaryResultArea {
+  flex: 1;
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 60px;
+  resize: none;
+}
+
+.BinaryCopyBtn {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+
+// IP计算器面板
+.IPPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+.IPInputRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  background: var(--color-fill-2);
+  border-radius: 4px;
+}
+
+.IPResults {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.IPResultSection {
+  background: var(--color-fill-2);
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.IPResultTitle {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--color-text-1);
+}
+
+.IPResultRow {
+  font-size: 13px;
+  color: var(--color-text-2);
+  padding: 4px 0;
+}
+
+// SQL参数填充面板
+.SQLPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+}
+
+.SQLInputRow {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+}
+
+.SQLInputItem {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.SQLArea {
+  flex: 1;
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 150px;
+  resize: none;
+}
+
+.SQLOutputRow {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.SQLOutputArea {
+  flex: 1;
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 100px;
+  resize: none;
+}
+
+.SQLCopyBtn {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+
+// Http请求代码面板
+.HttpPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.HttpContent {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+}
+
+.HttpInputWrap,
+.HttpOutputWrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.HttpEditor {
+  flex: 1;
+  display: flex;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.HttpLineNumbers {
+  padding: 8px;
+  background: var(--color-fill-2);
+  color: var(--color-text-3);
+  font-size: 12px;
+  font-family: monospace;
+  min-width: 30px;
+  text-align: right;
+}
+
+.HttpArea {
+  flex: 1;
+  border: none !important;
+  height: 100% !important;
+  max-height: none !important;
+  min-height: 200px;
+  resize: none;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.HttpFooter {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+}
